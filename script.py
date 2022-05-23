@@ -20,3 +20,5 @@ result = open("result.txt", "w+")
 for value in sortedFileList:
 	file = open(filelist[value], encoding="utf8").read()
 	result.write(file)
+
+result.close
