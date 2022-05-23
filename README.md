@@ -10,3 +10,5 @@ You must have python installed to run the application
 2. Move the script.py file to the root of the desired directory 
 3. Open the console and go to the desired folder
 4. Write python script.py
+
+The result will be output to the current folder in the result.txt file
