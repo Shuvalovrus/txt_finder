@@ -12,3 +12,5 @@ for root, dirs, files in os.walk(currentDir):
 		if(file.endswith( ".txt" ) and file != "result.txt"):
 			filelist[file] = os.path.join(root,file)
 
+#sort keys
+sortedFileList = sorted(filelist.keys())
